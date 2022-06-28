@@ -40,8 +40,8 @@
 
 # REMOTE REPOSITORIES
 - git clone [repo-url] (retrieve an entire repository from a hosted location via URL | nếu tải project từ server thì use "-git push" để tải code lên server)
-- git push [alias] [branch] (ex: git push -u origin dev | origin: [alias] of remote server, dev: [branch-name] | upload 1 branch từ local lên remote server)
-- git fetch [alias] (ex: git fetch origin | origin: [alias] of remote server | tải 1 branch trên remote về)
+- git push [alias] [branch] | git push (ex: git push -u origin dev | origin: [alias] of remote server, dev: [branch-name] | upload 1 branch từ local lên remote server)
+- git fetch [alias] (fetch down all the branches from that Git remote | ex: git fetch origin | origin: [alias] of remote server | tải branchs trên remote về)
 
 - sử dụng Pull request tren github để merge 1 branch mới vào master
 - git pull [url](tải về thay đổi trên github)
