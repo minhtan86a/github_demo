@@ -11,6 +11,7 @@ git config --global user.email "minhtan86a@gmail.com"
 
 - Repository (Repo)
 - Branch (default: master) (1 project có thể có nhiều branch)
+- Conflict (xung đột)
 
 # Commands
 
