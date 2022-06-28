@@ -11,7 +11,7 @@ git config --global user.email "minhtan86a@gmail.com"
 
 - Repository (Repo)
 - Branch (default: master) (1 project có thể có nhiều branch)
-- Conflict (xung đột)
+- Conflict (xung đột, nếu có xung đột khi 2 branch sửa code trên cùng 1 file thì phải kiểm tra lại xem giữ cái nào rồi add và commit mới merge được, commit ko cần ghi chú vì đang giải quyết 1 conflict)
 
 # Commands
 
