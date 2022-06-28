@@ -19,3 +19,6 @@ git config --global user.email "minhtan86a@gmail.com"
 - git add . (lưu all files)
 - git reset (bỏ các file đã lưu)
 - git commit -m 'write something' (chính thức lưu, up lên repo, -m là message "initial commit" )
+- git log (xem thời điểm lưu)
+- git log --oneline
+- git checkout <id> (trở lại 1 thời điểm ban đầu / cụ thể)
