@@ -32,5 +32,8 @@ git config --global user.email "minhtan86a@gmail.com"
 - git branch (list all branchs)
 - git branch -d <branch name> (xóa 1 branch)
 - git push <link repo của remote> <branch name>(upload project from local len remote)
-- git remote add origin https://github.com/minhtan86a/github_demo.git (tạo 1 alias cho link remote, đổi thành origin). Then use -git push origin master
-- git clone <link repo cua remote>
+- git remote add origin https://github.com/minhtan86a/github_demo.git (tạo 1 alias cho link remote, đổi thành origin). Then use "-git push origin master"
+- git clone <link repo cua remote> (nếu tải project từ server thì use "-git push" để tải code lên server)
+- git push -u origin dev (upload 1 branch từ local lên remote server, origin: alias name of remote server, dev: <branch name>)
+- git fetch origin (tải 1 branch trên remote về)
+- git checkout -b staging origin/staging (tải 1 branch trên remote về)
