@@ -39,3 +39,4 @@ git config --global user.email "minhtan86a@gmail.com"
 - git checkout -b {branch name} origin/{branch name} (tải 1 branch trên remote về)
 - sử dụng Pull request tren github để merge 1 branch mới vào master
 - git pull (tải về thay đổi trên github)
+- Fork dùng để chỉnh sửa code của 1 ai đó trên github sau đó tạo 1 pull request để xin tác giả thêm vào và chờ duyệt.
