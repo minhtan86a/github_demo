@@ -23,6 +23,6 @@ git config --global user.email "minhtan86a@gmail.com"
 - git log (xem thời điểm lưu)
 - git log --oneline
 - git checkout <id> (trở lại 1 thời điểm ban đầu / cụ thể, ex: id = id của commit)
-- git checkout <branchname> (trở lại hiện tại, ex: master)
+- git checkout <branchname> (trở lại hiện tại, ex: git checkout master)
 - git branch
-- git checkout -b <branchname> (tạo branch mới)
+- git checkout -b <branchname> (tạo branch mới, ex: git checkout -b dev)
