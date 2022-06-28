@@ -10,6 +10,7 @@ git config --global user.email "minhtan86a@gmail.com"
 # Terms
 
 - Repository (Repo)
+- Branch (default: master) (1 project có thể có nhiều branch)
 
 # Commands
 
@@ -18,7 +19,10 @@ git config --global user.email "minhtan86a@gmail.com"
 - git add <file name>(chuẩn bị lưu lại thời điểm của project)
 - git add . (lưu all files)
 - git reset (bỏ các file đã lưu)
-- git commit -m 'write something' (chính thức lưu, up lên repo, -m là message "initial commit" )
+- git commit -m 'write something' (chính thức lưu để up lên repo, -m là message "initial commit" )
 - git log (xem thời điểm lưu)
 - git log --oneline
-- git checkout <id> (trở lại 1 thời điểm ban đầu / cụ thể)
+- git checkout <id> (trở lại 1 thời điểm ban đầu / cụ thể, ex: id = id của commit)
+- git checkout <branchname> (trở lại hiện tại, ex: master)
+- git branch
+- git checkout -b <branchname> (tạo branch mới)
