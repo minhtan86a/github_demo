@@ -40,9 +40,14 @@
 
 # REMOTE REPOSITORIES
 - git clone [repo-url] (retrieve an entire repository from a hosted location via URL | nếu tải project từ server thì use "-git push" để tải code lên server)
-- git push [alias] [branch] | git push (ex: git push -u origin dev | origin: [alias] of remote server, dev: [branch-name] | upload 1 branch từ local lên remote server)
-- git fetch [alias] (fetch down all the branches from that Git remote | ex: git fetch origin | origin: [alias] of remote server | tải branchs trên remote về)
+- git push [alias] [branch] | git push (ex: git push -u origin dev sau đó use 'git push' như normal | origin: [alias] of remote server, dev: [branch-name] | upload 1 branch từ local lên remote server)
 
-- sử dụng Pull request tren github để merge 1 branch mới vào master
+# Get branch from remote server
+- git fetch [alias] (fetch down all the branches from that Git remote | về branch master trước ex: git fetch origin | origin: [alias] of remote server | tải branchs trên remote về)
+- git checkout -b [branch-name] origin/[branch-name-remote] (ex: git checkout -b staging origin/staging | [branch-name] = staging | [branch-name-remote] = origin/staging | hoàn thành kéo xuống staging branch từ remote)
+
+- sử dụng Pull request tren github để merge 1 branch mới vào master (xem video)
 - git pull [url](tải về thay đổi trên github)
+
+# Fork
 - Fork dùng để chỉnh sửa code của 1 ai đó trên github sau đó tạo 1 pull request để xin tác giả thêm vào và chờ duyệt.
