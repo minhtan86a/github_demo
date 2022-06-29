@@ -23,7 +23,7 @@
 - git log --oneline
 
 # Branch and Merge
-- git branch (list all branchs)
+- git branch (list all branchs | -a show all remote and local branch name | -r show all remote branch name) 
 - git branch -d [branch-name] (xóa 1 branch)
 - git branch [branch-name] (create a new branch at the current commit)
 
